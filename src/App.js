@@ -83,7 +83,7 @@ function App() {
         <div className="pure-g">
           <div className="pure-u-1-1 pixelfont" style={{textAlign: "center"}}>
             <br/>
-            <span style={{lineHeight: "20px"}}>Your account is: </span><br/>
+            <span>Your account is: </span><br/>
             <span style={{border: "1px dashed cyan",padding: "5px", backgroundColor: "cornflowerblue"}}>{account || '0x...'}</span>
             <br/><br/>
             <span>{totalSupply}</span> / 5000 Minted
