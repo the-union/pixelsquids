@@ -1,0 +1,72 @@
+body {
+  background-image: url("/images/far.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #346dd6;
+  color: wheat;
+  font-family: 'VT323', monospace !important;
+  font-size: x-large;
+}
+
+#mainText {
+  font-family: 'VT323', monospace !important;
+  font-size: xx-large;
+  text-align: "center";
+  color: "white";
+}
+.pixelfont {
+  font-family: 'VT323', monospace !important;
+}
+
+.App {
+    margin: 1rem;
+    font-family: 'VT323', monospace !important;
+  }
+  .mint {
+    font-family: 'VT323', monospace !important;
+    font-size: 150%;
+    background-color: cyan;
+    margin-top: 30px;
+  }
+
+  #bg2 {
+    background-image: url("/images/foreground-2.png");
+    background-size: cover;
+    background-repeat: repeat-x;
+    height: 100%;
+    background-position-y: bottom;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    z-index: -9;
+    left: 0;
+  }
+
+  .navbar {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: yellowgreen;
+  }
+  
+  /* Change the color of links on hover */
+  .navbar a:hover {
+    color: aquamarine;
+  }
+  
+  /* Add a color to the active/current link */
+  .navbar a.active {
+    color: white;
+  }
